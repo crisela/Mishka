@@ -3,8 +3,14 @@
 	margin: 0 auto;
 	background-color: mediumseagreen;
 }
-ul.a{
-	list-style-type: circle;
+ul{
+	background-color: #0000ff;
+	padding: 5px;
+}
+li{
+	background-color:#ff0000;
+	margin: 6px;
+	padding: 9px
 }
 ul.b{
 	list-style-type: square;
@@ -19,4 +25,12 @@ ul.d{
 }
 ul.e{
 	list-style-image:url('pic.png');
+}
+ul.demo{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+ul.dog{
+	list-style:circle inside ;
 }
